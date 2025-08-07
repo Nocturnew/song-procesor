@@ -28,7 +28,7 @@ A comprehensive C++ library for audio signal processing and song manipulation.
 - **Normalization**: Automatic level adjustment
 - **Clipping Prevention**: Automatic gain control
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 song-processor/
@@ -58,7 +58,7 @@ song-processor/
 └── README.md                 # This file
 ```
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - CMake 3.16 or higher
