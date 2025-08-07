@@ -2,7 +2,7 @@
 
 A comprehensive C++ library for audio signal processing and song manipulation.
 
-## 🎵 Features
+## Features
 
 ### Audio I/O
 - **Multi-format support**: WAV, MP3, FLAC, OGG
@@ -109,7 +109,7 @@ int main() {
 }
 ```
 
-## 📚 API Documentation
+## API Documentation
 
 ### Audio Loading
 ```cpp
@@ -147,7 +147,7 @@ double peak = song_processor::utils::AudioUtils::calculatePeak(samples);
 auto normalized = song_processor::utils::AudioUtils::normalize(samples, 0.8f);
 ```
 
-## 🔧 Configuration
+## Configuration
 
 ### CMake Options
 - `BUILD_TESTS`: Enable unit tests (default: OFF)
@@ -160,7 +160,7 @@ auto normalized = song_processor::utils::AudioUtils::normalize(samples, 0.8f);
 cmake -DBUILD_TESTS=ON -DENABLE_MP3=ON ..
 ```
 
-## 🧪 Testing
+## Testing
 
 ```bash
 # Build with tests
@@ -171,35 +171,10 @@ make
 ctest --verbose
 ```
 
-## 📈 Performance
+## Performance
 
 The library is optimized for real-time processing:
 - **Low latency**: < 10ms processing delay
 - **High throughput**: Processes 44.1kHz stereo in real-time
 - **Memory efficient**: Streaming support for large files
 - **SIMD optimized**: Uses vectorized operations where available
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- FFT implementation based on FFTW library concepts
-- Audio processing algorithms inspired by industry standards
-- Thanks to the open-source audio community for inspiration
-
-## 📞 Support
-
-For questions, issues, or contributions:
-- Open an issue on GitHub
-- Check the documentation in the `docs/` folder
-- Review example code in the `examples/` directory
